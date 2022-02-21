@@ -1,0 +1,16 @@
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (min-width: 540px) {
+  #main {
+    width: 60%;
+  }
+}

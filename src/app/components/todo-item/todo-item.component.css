@@ -1,0 +1,27 @@
+.del {
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+.todo {
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.is-complete {
+  text-decoration: line-through;
+}
+
+#text {
+  margin-left: 10px;
+  /* overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto; */
+}
